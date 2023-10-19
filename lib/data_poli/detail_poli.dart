@@ -19,6 +19,8 @@ class _poliDetailState extends State<poliDetail> {
           children: [
             SizedBox(
               height: 20,
+              child:
+                  ElevatedButton(onPressed: () {}, child: Text("tekan tombol")),
             ),
             Text("Nama poli : ${widget.poli.namaPoli}",
                 style: TextStyle(fontSize: 20)),
